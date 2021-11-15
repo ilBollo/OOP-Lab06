@@ -20,11 +20,11 @@ public final class TestPerformance {
      */
     public static void main(final String... s) {
         /*
-         * Set up the data structures prova
+         * Set up the data structures
          */
         final Set<String> set = new TreeSet<>();
         /*
-         * Prepare a variable for measuring time
+         * Prepare a variable for measuring time prova
          */
         long time = System.nanoTime();
         /*
