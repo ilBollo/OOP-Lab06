@@ -20,7 +20,7 @@ public final class TestPerformance {
      */
     public static void main(final String... s) {
         /*
-         * Set up the data structures
+         * Set up the data structures prova
          */
         final Set<String> set = new TreeSet<>();
         /*
