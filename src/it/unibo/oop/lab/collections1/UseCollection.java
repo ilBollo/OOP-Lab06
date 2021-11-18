@@ -1,5 +1,8 @@
 package it.unibo.oop.lab.collections1;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 /**
  * Example class using {@link java.util.List} and {@link java.util.Map}.
  * 
@@ -14,6 +17,14 @@ public final class UseCollection {
      *            unused
      */
     public static void main(final String... s) {
+    	
+    	ArrayList<Integer> set = new ArrayList<Integer>();
+    	for (int i = 1000; i < 2000; i++) {
+    		set.add(i);	
+    	}
+    	
+    	System.out.println(set.toString());
+    	
         /*
          * 1) Create a new ArrayList<Integer>, and populate it with the numbers
          * from 1000 (included) to 2000 (excluded).
